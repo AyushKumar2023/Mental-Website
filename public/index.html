@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mental Health Care</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  </head>
+  <body>
     <script
       type="module"
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
     ></script>
   </head>
+
+
   <body>
     <div class="vdo">
       <video autoplay muted loop class="bg-video">
@@ -18,27 +23,60 @@
       </video>
     </div>
 
-    <header class="main-header">
+    <!-- <header class="main-header">
       <div class="logo-container">
         <img src="logoI.png" alt="Mental Health Care Logo" class="logo-img" />
-      </div>
+      </div> -->
     
-      <nav class="navbar">
-        <ul class="nav-links">
-          <li><a href="#program" class="nav-btn">Home</a></li>
+      <!-- <nav class="navbar">
+        <ul class="nav-links"> -->
+          <!-- <li><a href="#program" class="nav-btn">Home</a></li>
           <li><a href="#about" class="nav-btn">About Us</a></li>
-          <li><a href="#Experts" class="nav-btn">Experts</a></li>
+          <li><a href="#Experts" class="nav-btn">Experts</a></li> -->
           <!-- <li><a href="#Chat" class="nav-btn">Chat</a></li> -->
-          <li><a href="#blog" class="nav-btn">Blog</a></li>
-          <li><a href="#contact" class="nav-btn">Contact Us</a></li>
+          <!-- <li><a href="#blog" class="nav-btn">Blog</a></li>
+          <li><a href="#contact" class="nav-btn">Contact Us</a></li> -->
  
-        </ul>
-      </nav>
+        <!-- </ul>
+      </nav> -->
     
       <!-- <div class="client-login">
         <button class="get-started" onclick="openLogin()">Login / Sign Up</button>
       </div> -->
-    </header>
+    <!-- </header> -->
+
+    <nav class="navbar navbar-expand-lg bg-primary position-relative">
+    
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <a class="navbar-brand" href="#program">
+          <img src="logoI.png" width="100" height="60">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav-links">
+            <li class="nav-item">
+              <a class="nav-link nav-btn active" aria-current="page" href="#program">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-btn" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-btn" href="#Experts">Experts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-btn" href="#blog">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-btn" href="#contact">Contact Us</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
     
      
     <main>
@@ -242,7 +280,7 @@
 <!-- Blog -->
 <section id="blog">
   <div class="blog-container">
-    <h2 class="blog-title">Our Blog</h2>
+    <h2 class="blog-title">Our Blogs</h2>
 
     <!-- Patient Recovery Stories -->
     <div class="blog-section">
@@ -420,6 +458,6 @@
 <script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js"></script>
 <script src="https://files.bpcontent.cloud/2025/05/01/16/20250501161848-0CLMXD7Y.js"></script>
     
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
   </body>
 </html>

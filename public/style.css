@@ -125,7 +125,13 @@ nav a:active {
     }
 }
 
+#navbarNav{
+     margin-left: 600px;
+}
 
+.navbar-brand{
+  margin-left: 30px;
+}
 
  button.get-started {
     background: #ffcc00;
@@ -208,6 +214,7 @@ button.get-started:hover {
     justify-content: space-between;
     height: 100vh;
      padding: 50px;
+    margin-top: -100px;
     /* background: linear-gradient(120deg, #099fe4, #FFDEE9); Smooth gradient background */ 
 }  
 
@@ -635,7 +642,7 @@ model-viewer:hover {
     text-align: center;
     padding: 50px 20px;
     background-color: #e8f0fe;
-    scroll-margin-top: 60px;
+    /* scroll-margin-top: 60px; */
 }
 
 .contact-section h2 {
@@ -705,7 +712,7 @@ model-viewer:hover {
     background: #f5f9fc;
     padding: 60px 20px;
     font-family: 'Segoe UI', sans-serif;
-    scroll-margin-top: 80px;
+    scroll-margin-top: -20px;
   }
   
   .about-container {
@@ -931,7 +938,7 @@ model-viewer:hover {
   background-color: #f9f9f9;
   padding: 60px 20px;
   font-family: 'Segoe UI', sans-serif;
-  scroll-margin-top: 40px;
+  /* scroll-margin-top: 0px; */
 }
 
 .blog-container {
