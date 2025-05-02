@@ -250,6 +250,22 @@ button.get-started:hover {
     border-radius: 10px;
 } 
 
+@media (max-width:875px){
+  .page1{
+    height: auto;
+  }
+
+  .page1 #small-screen{
+    display: none;
+  }
+}
+
+@media (max-width:875px){
+  .page1 #smaller-screen{
+    display: none;
+  }
+}
+
 
 /* Home Section Button  appointment*/
 .appointment-btn {
